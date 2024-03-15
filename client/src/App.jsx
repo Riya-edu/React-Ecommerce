@@ -1,14 +1,15 @@
 'use client';
 import './App.css'
-import ComponentFooter from './Footer';
+
+import Home from './components/Home';
 
 function App() {
  
 
   return (
     <>
-  
-      <ComponentFooter />
+      <Home />
+      
     
     </>
   )

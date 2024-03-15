@@ -1,7 +1,7 @@
 'use client';
 
 import { Footer } from 'flowbite-react';
-import logo from './assets/logo1.png';
+import logo from '../assets/logo1.png';
 
 
 function ComponentFooter() {
