@@ -10,7 +10,7 @@ import { Container } from '@mui/material';
 export default function TitlebarImageList() {
   return (
     <Container>
-    <ImageList sx={{ width: 1100, height: 500 }}>
+    <ImageList sx={{ width: 1100, height: 500, overflow: "hidden"}}>
       <ImageListItem key="Subheader" cols={4}>
         <ListSubheader component="div"></ListSubheader>
       </ImageListItem>

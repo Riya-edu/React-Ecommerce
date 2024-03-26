@@ -1,6 +1,7 @@
 'use client';
 
 
+
 import ComponentFooter from './Footer';
 import ComponentCarousel from './Carousel';
 import TitlebarImageList from './ImageList';
@@ -14,6 +15,7 @@ import banner2 from '../assets/banner2.jpg';
 function Home() {
     return(
         <>
+        
         <div className="pb-8">
         <ComponentCarousel/>
         </div>
