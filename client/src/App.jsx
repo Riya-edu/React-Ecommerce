@@ -2,18 +2,15 @@
 import './App.css';
 
 
-{/*import Home from './components/Home';
-import Navbar from './components/Navbar';*/}
-import Cart from './components/Cart';
+
+import Women from './components/WomenSection/Women';
 
 function App() {
  
 
   return (
     <>
-      {/* <Navbar /> 
-          <Home /> */}
-      <Cart />
+     <Women />
      
       
     
