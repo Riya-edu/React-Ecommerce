@@ -1,20 +1,21 @@
-import'./admin.css'
-import Sidebar from '../../components/Sidebar/Sidebar'
-{/*import { Routes, Route } from 'react-router-dom'
-import { AddProduct } from '../../components/Add Product/addproduct'
-import { ListProduct } from '../../components/List Product/listproduct'*/}
 
-const Admin = () => {
+import './admin.css' 
+import Sidebar from '../../components/Sidebar/Sidebar'
+import { Route, Routes } from 'react-router-dom'
+import AddProduct from '../../components/AddProduct/AddProduct.jsx'
+import ListProduct from '../../components/ListProduct/ListProduct.jsx'
+
+
+const admin = () => {
   return (
     <div className='admin'>
     <Sidebar />
-    {/*<Routes>
-      <Route path='/addproduct' element={<AddProduct/>} />
-      <Route path='/listproduct' element={<ListProduct/>} />
-  </Routes>*/}
-    
+    <Routes>
+    <Route path='/addproduct' element={<AddProduct />} />
+    <Route path='/listproduct' element={<ListProduct />} />
+    </Routes>
     </div>
   )
 }
 
-export default Admin
+export default admin
