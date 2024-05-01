@@ -1,9 +1,9 @@
 
 import Home from'./components/Home';
 //import ComponentNavbar from './components/Navbar';
-//import {BrowserRouter, Routes, Route} from 'react-router-dom';
-//import ShopCategory from './Pages/ShopCategory';
-//import Product from './Pages/Product';
+{/*import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import ShopCategory from './Pages/ShopCategory';
+import Product from './Pages/Product';*/}
 const App = () => {
   return (
     <>
@@ -21,7 +21,8 @@ const App = () => {
     
     </Routes>
     
-  </BrowserRouter>*/}
+  </BrowserRouter>
+  */}
     
     </>
     

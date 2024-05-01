@@ -3,7 +3,7 @@ import PW2 from './PW2.jpg';
 import PM1 from './PM1.jpg';
 import PM2 from './PM2.jpg';
 
-let data_product=[
+let new_collections=[
 
     {
         id:1, 
@@ -39,4 +39,4 @@ let data_product=[
 
 ]
 
-export default data_product
+export default new_collections
