@@ -38,6 +38,11 @@
     border: 1px solid #7b7b7b;
     border-radius: 4px;
 }
+.selector{
+    display: flex;
+    gap: 40px;
+}
+
 .addproduct_img_thumbnail{
     display: flex;
     height: 300px;

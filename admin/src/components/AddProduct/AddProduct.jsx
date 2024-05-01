@@ -9,7 +9,8 @@ const AddProduct = () => {
     image:"",
     category:"women",
     new_price:"",
-    old_price:""
+    old_price:"",
+    size:"Small",
   })
 
   const imageHandler = (e) =>{
@@ -70,6 +71,8 @@ const AddProduct = () => {
       </div>
       </div>
 
+      
+      <div className='selector'>
     <div className='addproduct_item'>
     <p>Product Category</p>
     <select value={productDetails.category} onChange={changeHandler} name="category" className='addproductselector'>
@@ -77,6 +80,15 @@ const AddProduct = () => {
       <option value={'men'}>Men</option>
       <option value={'kids'}>Kids</option>
     </select>
+    
+    <p>Select size:</p>
+  <select value={productDetails.size} onChange={changeHandler} name="size" className='addproductselector'>
+    <option value={'small'}>Small</option>
+    <option value={'medium'}>Medium</option>
+    <option value={'large'}>Large</option>
+    <option value={'extra-large'}>Extra Large</option>
+  </select>
+ </div>
     </div>
     <div className='addproduct_item'>
     <label htmlFor='file_input'>

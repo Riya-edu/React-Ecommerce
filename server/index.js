@@ -135,6 +135,11 @@ app.get('/allproducts', async(req, res)=>{
     res.send(products);
 })
 
+//Schema for User
+
+
+//Creating endpoint for registering user 7:25 approx
+
 
 //App will run Here
 app.listen(port,(error)=>{
